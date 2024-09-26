@@ -1,0 +1,54 @@
+#main{
+    background-image: linear-gradient(to right top, #000000, #3c1229, #6e185d, #922ba5, #9b51fe);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+}
+
+/* .container{
+    margin-top: 0;
+    margin-left: 0 ;
+    margin-right: 0;
+    margin-bottom: 0;
+} */
+
+.logo-rodela{
+    width: 25%;
+    margin-top: 1%;
+}
+
+.div-form{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1%;
+}
+
+.sub-div-form{
+    background-color: #141414;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.labels-form{
+    color: #FFFFFF;
+    font-size: 20px;
+}
+
+.input-form{
+    margin-bottom: 20px;
+}
+
+.btn-submit{
+    background-color: #ffffff;
+    color: #FFFFFF;
+    border: 3px solid black;
+    border-radius: 10px;
+    color: black;
+    padding: 10px;
+    font-size: 20px;
+    width: 80%;
+}
