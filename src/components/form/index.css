@@ -1,0 +1,88 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+
+.div-form{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.sub-div-form{
+    background-color: #141414;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.div-title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title-home{
+    font-family: 'Press Start 2P';
+    font-size: 15px;
+    color: #FFFFFF;
+    margin-bottom: 5% ;
+}
+
+
+.labels-form{
+    color: #FFFFFF;
+    font-size: 14px;
+    font-family: 'Press Start 2P';
+}
+
+.input-form{
+    margin-bottom: 20px;
+    font-size: 10px;
+    font-family: 'Press Start 2P';
+    background-color: rgb(49, 49, 49);
+    border: none;
+    border-bottom: 2px solid rgb(169, 7, 190);
+}
+
+.btn-submit{
+    background-color: #ffffff;
+    color: #FFFFFF;
+    border: 3px solid black;
+    border-radius: 10px;
+    color: black;
+    padding: 10px;
+    font-size: 17px;
+    width: 80%;
+    font-family: 'Press Start 2P';
+}
+
+
+input.input-form:focus{
+    color: rgb(255, 255, 255);
+    background-color: rgb(49, 49, 49);
+    border: none;
+    border-bottom: 2px solid rgb(169, 7, 190);
+}
+
+
+textarea.input-form:focus{
+    color: rgb(255, 255, 255);
+    background-color: rgb(49, 49, 49);
+    border: none;
+    border-bottom: 2px solid rgb(169, 7, 190);
+}
+
+.caractere-label{
+    color: #FFFFFF;
+    font-family: 'Press Start 2P';
+    font-size: 8px;
+}

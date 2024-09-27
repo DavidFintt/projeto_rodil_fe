@@ -5,6 +5,11 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: linear-gradient(to right top, #000000, #3c1229, #6e185d, #922ba5, #9b51fe);
+  background-repeat: no-repeat;
+  background-attachment: fixed; /* Isso fará com que o background fique fixo durante o scroll */
+  width: 100%;
+  min-height: 100vh; /* Alterado de height para min-height */
 }
 
 code {

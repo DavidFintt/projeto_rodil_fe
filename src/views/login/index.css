@@ -1,0 +1,58 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+#main-login{
+    background-size: cover;
+    background-attachment: fixed; /* Isso fará com que o background fique fixo durante o scroll */
+    width: 100%;
+    min-height: 100vh; /* Alterado de height para min-height */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-login{
+    width: 30%;
+}
+
+.sub-container-login{
+    background-color: #141414;
+    border-radius: 10px;
+    padding: 30px;
+    margin-bottom: 20px;
+    width: 100%;
+    
+}
+
+.label-login{
+    font-family: 'Press Start 2P';
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    justify-content: left;
+}
+
+.input-login{
+    font-family: 'Press Start 2P';
+    font-size: 10px;
+}
+
+.button-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.btn-login{
+    font-family: 'Press Start 2P';
+    background-color: rgb(56, 11, 73);
+    border: 2px solid rgb(252, 252, 252);
+    color: rgb(228, 227, 227);
+    font-size: 18px;
+    margin-top: 20px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}

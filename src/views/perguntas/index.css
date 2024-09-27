@@ -1,0 +1,72 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+#main-perguntas{
+    background-size: cover;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-perguntas{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-rodela-perguntas{
+    width: 300px;
+}
+
+.card{
+    max-width: 600px;
+    width: 600px;
+    background-color: #000000;
+    padding: 20px;
+}
+
+.btn-proxima{
+    font-family: 'Press Start 2P';
+    font-size: 10px;
+    padding: 10px;
+    background-color: #3d0868;
+    color: #FFFFFF;
+    width: 10%;
+    position: absolute;
+    margin-top: 1%;
+}
+
+.btn-voltar{
+    font-family: 'Press Start 2P';
+    font-size: 10px;
+    padding: 10px;
+    background-color: #3d0868;
+    color: #FFFFFF;
+    width: 200px;
+}
+
+.pergunta-label{
+    font-family: 'Press Start 2P';
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+.nick-h5{
+    font-family: 'Press Start 2P';
+    font-size: 18px;
+    color: #000000;
+    background-color: rgb(255, 254, 254);
+    padding: 10px;
+}
+
+.pergunta-h5{
+    font-family: 'Press Start 2P';
+    font-size: 18px;
+    color: #000000;
+    background-color: rgb(255, 254, 254);
+    padding: 15px;
+}

@@ -6,7 +6,7 @@ const token = localStorage.getItem("access_token");
 class MensagemService {
     async loadMensagens(data) {
         try{
-            const response = await api.post('/api/mensagens/load/', data);
+            const response = await api.get('/api/mensagens/load/', data);
             return response
         } catch (error) {
             console.log(error.response)
@@ -39,7 +39,7 @@ class MensagemService {
 
     async lerMensagem(data) {
         try{
-            const response = await api.post('/api/mensagens/ler/', data);
+            const response = await api.patch('/api/mensagens/ler/', data);
             return response
         } catch (error) {
             console.log(error.response)
